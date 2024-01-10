@@ -1,6 +1,6 @@
 # UVM - UART TX Module
 
-Verification of a UART TX module using [UVM](https://en.wikipedia.org/wiki/Universal_Verification_Methodology) and [Cadence Xcelium](https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html)
+Verification of a UART TX module using [UVM](https://en.wikipedia.org/wiki/Universal_Verification_Methodology) and [Cadence Xcelium](https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html).
 
 ## Waveform
 ![](https://github.com/clancy-mitchell/verilog-uart-uvm/blob/main/waveform.png)
