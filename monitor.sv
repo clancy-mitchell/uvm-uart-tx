@@ -28,8 +28,8 @@ class Monitor;
       // Intialize empty sequence
       TXSequence seq = new();
 
-      // Blocking statement, wait for start bit
-      @(posedge uart_tx_vif.tx_start);
+      // Blocking statement, wait for tx serial to go low (start bit)
+      @(negedge uart_tx_vif.tx_serial);
       
       // Sample start bit, delaying until halfway through start bit
       #(clks_per_bit/2) seq.tx_start_bit = uart_tx_vif.tx_serial;
